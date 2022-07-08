@@ -1,11 +1,11 @@
 import React from 'react';
 
 //importantando componentes
-import FunctionComponents from './components/FunctionComponents';
-import ClassComponents from './components/ClassComponents';
-import PartOne from './components/Hooks';
-// import Router from './routes/routes';
-import ButtonProps from './components/Props/Component';
+// import FunctionComponents from './components/FunctionComponents';
+// import ClassComponents from './components/ClassComponents';
+// import PartOne from './components/Hooks';
+import Router from './routes/routes';
+// import ButtonProps from './components/Props/Component';
 
 
 
@@ -36,32 +36,32 @@ import ButtonProps from './components/Props/Component';
 // //     </div>
 // //   );
 // // }
+// const App: React.FC = () => {
+// //   //// O React.FC functional component e a tipagem do TS
+//   return (
+//    <div>
+//       <h1>Listando os nossos primeiros componentes!</h1>
+//       <FunctionComponents />
+//       <ClassComponents />
+//       <PartOne />
+
+//       <ButtonProps name="Botão 1" />
+//       <ButtonProps name="Botão 2" />
+//       {/* invocando os componentes */}
+// {/* //       <Hello /> importando adicionando ao código os componentes
+// {/* //    </div>
+// //   );
+// // } */}
 const App: React.FC = () => {
-//   //// O React.FC functional component e a tipagem do TS
-  return (
-   <div>
-      <h1>Listando os nossos primeiros componentes!</h1>
-      <FunctionComponents />
-      <ClassComponents />
-      <PartOne />
-
-      <ButtonProps name="Botão 1" />
-      <ButtonProps name="Botão 2" />
-      {/* invocando os componentes */}
-{/* //       <Hello /> importando adicionando ao código os componentes
-{/* //    </div>
-//   );
-// } */}
-{/* const App: React.FC = () => {
   return <Router />;
-} */} 
+} 
 
 
 
-    </div>
-  );
-}
-//       <button
+//     </div>
+//   );
+// }
+// //       <button
 //         onClick={Hello} > Clique aqui</button>
 //       </div>
 //   );
